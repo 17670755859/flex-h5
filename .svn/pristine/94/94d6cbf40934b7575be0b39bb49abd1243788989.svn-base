@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <script>
+        (function () {
+            var vWidth = (window.document.documentElement.getBoundingClientRect().width > 640) ? 640 : window.document.documentElement.getBoundingClientRect().width;
+            window.document.documentElement.style.fontSize = vWidth / 6.4 + "px";
+        })()
+    </script>
+    <title>POPSICLE by FLEXA</title>
+    <link rel="stylesheet" href="css/index.css?v=1158">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!--可视化console.log-->
+    <script src="js/jquery-1.11.3-min.js"></script>
+    <script src="js/index.js?v=1438"></script>
+</head>
+<body>
+<div class="page0">
+    <div class="logo"></div>
+    <div class="swiper-container main">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide items"></div>
+            <div class="swiper-slide items"></div>
+            <div class="swiper-slide items"></div>
+            <div class="swiper-slide items"></div>
+            <div class="swiper-slide items"></div>
+            <div class="swiper-slide items"></div>
+            <div class="swiper-slide items"></div>
+            <div class="swiper-slide items"></div>
+        </div>
+    </div>
+    <div class="slogan">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <div class="video0">
+        <canvas></canvas>
+        <div class="playbtn"></div>
+    </div>
+    <div class="arrow"></div>
+    <div class="moreinfo"></div>
+</div>
+<div class="container">
+    <div class="head"></div>
+    <div class="uctn">
+        <div class="video1">
+            <canvas></canvas>
+            <div class="playbtn"></div>
+        </div>
+        <div class="swiper-container shuronglbt">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+            </div>
+        </div>
+        <div class="swiper-container peibanchengzhanglbt">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+            </div>
+        </div>
+        <div class="swiper-container danrenbudandiaolbt">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+            </div>
+        </div>
+        <div class="swiper-container wanmeikongjianlbt">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+            </div>
+        </div>
+        <div class="swiper-container kefangbukonglbt">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+            </div>
+        </div>
+        <div class="swiper-container zimumimalbt">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+            </div>
+        </div>
+        <div class="swiper-container banshoulilbt">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+                <div class="swiper-slide items"></div>
+            </div>
+        </div>
+    </div>
+    <div class="qiuctn">
+        <div class="leftarrow"></div>
+        <ul>
+            <li class="items items1 n0" data-index="0">
+                <div></div>
+                <p>生来如此</p>
+                <p>BORN THIS WAY</p>
+            </li>
+            <li class="items items2 n1" data-index="1">
+                <div></div>
+                <p>纯棉接触</p>
+                <p>NATURE COTTON SOFT TOUCH</p>
+            </li>
+            <li class="items items3 n2" data-index="2">
+                <div></div>
+                <p>殊荣</p>
+                <p>AWARD</p>
+            </li>
+            <li class="items items4 n3" data-index="3">
+                <div></div>
+                <p>创作</p>
+                <p>CREATION</p>
+            </li>
+            <li class="items items5 n4" data-index="4">
+                <div></div>
+                <p>灵感</p>
+                <p>INSPIRATION</p>
+            </li>
+            <li class="items items6" data-index="5">
+                <div></div>
+                <p>精雕细琢</p>
+                <p>CRAFTSMANSHIP</p>
+            </li>
+            <li class="items items7" data-index="6">
+                <div></div>
+                <p>伴手礼</p>
+                <p>SOUVENIR</p>
+            </li>
+            <li class="items items8" data-index="7">
+                <div></div>
+                <p>单人不单调</p>
+                <p>SINGLE ROOM SIMPLE SOLUTION </p>
+            </li>
+            <li class="items items9" data-index="8">
+                <div></div>
+                <p>客房不空</p>
+                <p>GUEST ROOM NOT VACANT</p>
+            </li>
+            <li class="items items10" data-index="9">
+                <div></div>
+                <p>子母密码</p>
+                <p>TIE BETWEEN GRANDMA & GRANDCHILDREN </p>
+            </li>
+            <li class="items items11" data-index="10">
+                <div></div>
+                <p>陪伴成长</p>
+                <p>ACCOMPANY GROWTH</p>
+            </li>
+            <li class="items items12" data-index="11">
+                <div></div>
+                <p>完美空间</p>
+                <p>OPTIMIZED STORAGE SPACE </p>
+            </li>
+        </ul>
+        <div class="rightarrow"></div>
+    </div>
+    <div class="bctn">
+        <div class="lingan">
+            <div class="d1">
+                <div class="pic">
+                    <div class="girl"></div>
+                    <div class="boy"></div>
+                </div>
+                <div class="text"></div>
+            </div>
+            <div class="d2">
+                <div class="mainpic"></div>
+                <div class="text">
+                    <div class="top"></div>
+                    <div class="bottom"></div>
+                </div>
+            </div>
+            <div class="d3">
+                <div class="text"></div>
+            </div>
+        </div>
+        <div class="jingdiaoxizhuo">
+            <div class="d1"></div>
+            <div class="d2"></div>
+        </div>
+        <div class="shurong">
+            <div class="d1"></div>
+            <div class="d2"></div>
+            <div class="d3"></div>
+            <div class="d4"></div>
+            <div class="d5"></div>
+        </div>
+        <div class="peibanchengzhang">
+            <div class="d1">
+                <div class="text"></div>
+            </div>
+        </div>
+        <div class="danrenbudandiao">
+            <div class="d1"></div>
+        </div>
+        <div class="wanmeikongjian">
+            <div class="d1"></div>
+            <div class="d2"></div>
+            <div class="d3"></div>
+        </div>
+        <div class="kefangbukong">
+            <div class="d1"></div>
+            <div class="d2"></div>
+            <div class="d3"></div>
+        </div>
+        <div class="zimumima">
+            <div class="d1"></div>
+            <div class="d2"></div>
+        </div>
+        <div class="banshouli">
+            <div class="d1"></div>
+            <div class="d2"></div>
+            <div class="d3"></div>
+        </div>
+        <div class="chunmianjiechu">
+            <div class="d1"></div>
+        </div>
+        <div class="chuangzuo">
+            <div class="d1"></div>
+            <div class="d2"></div>
+        </div>
+        <div class="shenglairuci">
+            <div class="d1"></div>
+            <div class="d2"></div>
+            <div class="d3"></div>
+        </div>
+    </div>
+    <div class="btns">
+        <div class="b1"></div>
+        <div class="b2"></div>
+        <div class="b3"></div>
+    </div>
+</div>
+<div class="products">
+    <div class="logo"></div>
+    <div class="slogan"></div>
+    <ul>
+        <li>
+            <div class="mainpic">
+                <div class="pd1">
+                    <p>120/140cm单/双人床</p>
+                </div>
+                <div class="pd2">
+                    <p>客床+梯柜</p>
+                </div>
+            </div>
+            <div class="tovr1"></div>
+        </li>
+        <li>
+            <div class="mainpic">
+                <div class="pd4">
+                    <p>中高床斜梯</p>
+                </div>
+                <div class="pd5">
+                    <p>中高床+梯柜</p>
+                </div>
+            </div>
+            <div class="tovr2"></div>
+        </li>
+        <li>
+            <div class="mainpic">
+                <div class="pd7">
+                    <p>双层床直梯</p>
+                </div>
+                <div class="pd8">
+                    <p>L型床</p>
+                </div>
+            </div>
+            <div class="tovr3"></div>
+        </li>
+        <li>
+            <div class="mainpic">
+                <div class="pd10">
+                    <p>子母床</p>
+                </div>
+                <div class="pd11">
+                    <p>子母床+梯柜</p>
+                </div>
+            </div>
+            <div class="tovr4"></div>
+        </li>
+    </ul>
+    <div class="backbtn">
+        <div class="back">返回上一级</div>
+    </div>
+</div>
+<div class="wxpopup">
+    <img src="img/wx-popup.jpg" alt="">
+</div>
+<video src="videos/linggan.mp4"
+       id="v1"
+       webkit-playsinline
+       playsinline
+       preload="auto"
+       loop
+       poster="img/p0-poster.jpg"
+       x5-video-player-type="h5"
+       x5-video-player-fullscreen="true"
+       x5-video-orientation="portraint">
+</video>
+<script src="js/swiper.jquery.min.js"></script>
+<script src="http://test.i-h5.cn/common/share.php?type=js"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<script>
+    //wx分享相关
+    //分享到朋友数据
+    var sharedata = {
+        title: '来自丹麦高端儿童整体家具-POPSICLE系列',
+        desc: '丹麦设计,欧洲进口。始于1972年不变',
+        link: window.location.href,
+        imgUrl: 'http://test.i-h5.cn/lsx_game/0920-flexa/img/share-pic.png',
+        success: function () {
+            // 用户确认分享后执行的回调函数
+            console.log('分享成功');
+        }
+    };
+    //分享到朋友圈数据 默认和分享朋友一样
+    var timelinedata = {
+        title: sharedata.title,
+        link: sharedata.link,
+        imgUrl: sharedata.imgUrl
+    };
+    wx.config({
+        jsApiList: ['checkJsApi', 'onMenuShareTimeline', 'onMenuShareAppMessage', 'onMenuShareQQ', 'onMenuShareWeibo', 'onMenuShareQZone', 'hideMenuItems', 'showMenuItems', 'hideAllNonBaseMenuItem', 'showAllNonBaseMenuItem', 'translateVoice', 'startRecord', 'stopRecord', 'onVoiceRecordEnd', 'playVoice', 'onVoicePlayEnd', 'pauseVoice', 'stopVoice', 'uploadVoice', 'downloadVoice', 'chooseImage', 'previewImage', 'uploadImage', 'downloadImage', 'getNetworkType', 'openLocation', 'getLocation', 'hideOptionMenu', 'showOptionMenu', 'closeWindow', 'scanQRCode', 'chooseWXPay', 'openProductSpecificView', 'addCard', 'chooseCard', 'openCard'],
+        debug    : false,
+        appId    : wx_config['appId'],
+        timestamp: wx_config['timestamp'],
+        nonceStr : wx_config['nonceStr'],
+        signature: wx_config['signature']
+    });
+    wx.ready(function () {
+        wx.onMenuShareAppMessage(sharedata);
+        wx.onMenuShareTimeline(timelinedata);
+        document.querySelector('#v1').load();
+        wx.hideMenuItems({
+            menuList: [
+                "menuItem:editTag",
+                "menuItem:delete",
+                "menuItem:copyUrl",
+                "menuItem:originPage",
+                "menuItem:readMode",
+                "menuItem:openWithQQBrowser",
+                "menuItem:openWithSafari",
+                "menuItem:share:email",
+                "menuItem:share:brand"
+            ] // 要隐藏的菜单项，只能隐藏“传播类”和“保护类”按钮，所有menu项见附录3
+        });
+    });
+</script>
+</body>
+</html>
